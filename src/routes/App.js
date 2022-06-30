@@ -6,6 +6,7 @@ import { Login } from "../containers/Login";
 import { RecoveryPassword } from "../containers/RecoveryPassword";
 import { SendEmail } from "../pages/SendEmail";
 import { NewPassword } from "../pages/NewPassword";
+import { MyAccount } from "../pages/MyAccount";
 import { NotFound } from "../pages/NotFound";
 import "../styles/global.scss";
 
@@ -19,6 +20,7 @@ function App () {
                     <Route path="/recovery-password" element={<RecoveryPassword />} />
                     <Route path="/send-email" element={<SendEmail />} />
                     <Route path="/new-password" element={<NewPassword />} />
+                    <Route path="my-account" element={<MyAccount />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Layout>
