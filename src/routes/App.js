@@ -8,6 +8,7 @@ import { SendEmail } from "../pages/SendEmail";
 import { NewPassword } from "../pages/NewPassword";
 import { MyAccount } from "../pages/MyAccount";
 import { CreateAccount } from "../pages/CreateAccount";
+import { Checkout } from "../pages/Checkout";
 import { NotFound } from "../pages/NotFound";
 import "../styles/global.scss";
 
@@ -23,6 +24,7 @@ function App () {
                     <Route path="/new-password" element={<NewPassword />} />
                     <Route path="/my-account" element={<MyAccount />} />
                     <Route path="/signup" element={<CreateAccount />} />
+                    <Route path="/chekout" element={<Checkout />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </Layout>
