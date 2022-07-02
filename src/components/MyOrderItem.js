@@ -1,5 +1,7 @@
 import React from "react";
-import "../styles/MyOrderItem.scss";
+import "@styles/MyOrderItem.scss";
+
+import close from "@icons/icon_close.png";
 
 function MyOrderItem () {
     return (
@@ -9,7 +11,7 @@ function MyOrderItem () {
             </figure>
             <p>Bike</p>
             <p>$120.00</p>
-            <img src="./icons/Platzi_YardSale_Icons/icon_close.png" alt="close" />
+            <img src={close} alt="close" />
         </div>
     );
 };

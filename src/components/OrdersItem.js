@@ -1,5 +1,7 @@
 import React from "react";
-import "../styles/OrdersItem.scss";
+import "@styles/OrdersItem.scss";
+
+import flechita from "@icons/flechita.svg";
 
 function OrdersItem () {
     return (
@@ -9,7 +11,7 @@ function OrdersItem () {
                 <span>6 articles</span>
             </p>
             <p>$560.00</p>
-            <img src="./icons/Platzi_YardSale_Icons/flechita.svg" alt="arrow" />
+            <img src={flechita} alt="arrow" />
         </div>
     );
 }

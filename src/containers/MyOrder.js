@@ -1,12 +1,14 @@
 import React from "react";
-import { MyOrderItem } from "../components/MyOrderItem";
-import "../styles/MyOrder.scss";
+import { MyOrderItem } from "@components/MyOrderItem";
+import "@styles/MyOrder.scss";
+
+import flechita from "@icons/flechita.svg";
 
 function MyOrder () {
     return (
         <aside className="product-detail shopping-cart-detail">
             <div className="title-container">
-                <img src="./icons/Platzi_YardSale_Icons/flechita.svg" alt="arrow" />
+                <img src={flechita} alt="arrow" />
                 <p className="title-shopping-cart">My Order</p>
             </div>
             <div className="my-order-content">        
