@@ -1,8 +1,9 @@
 import React from "react";
+import "@styles/Menu.scss";
 
 function Menu () {
     return (
-        <div className="desktop-menu">
+        <div className="Menu">
             <ul>
                 <li><a href="/" className="my-orders">My orders</a></li>
                 <li><a href="/">My account</a></li>
