@@ -3,6 +3,25 @@
     padding-bottom: 24px;
     position: absolute;
     right: 0;
+    background-color: var(--white);
+    top: 60px;
+    bottom: auto;
+    border-radius: 6px;
+    border: 1px solid var(--very-light-pink);
+    height: 300px;
+	overflow-y: scroll !important;
+	overflow-x:hidden !important;
+}
+.product-detail::-webkit-scrollbar {
+	width: 0.8rem;
+}
+.product-detail::-webkit-scrollbar-track {
+    background: var( --very-light-pink );
+    border-radius: 1rem;
+}
+.product-detail::-webkit-scrollbar-thumb {
+    background-color: var( --hospital-green );
+    border-radius: 20px;
 }
 .product-detail > img:nth-child(2) {
     width: 100%;
