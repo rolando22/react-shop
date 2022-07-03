@@ -10,7 +10,6 @@ function useGetProducts (API) {
             setProducts(response.data);
         };
         getData();
-        console.log(products);
     }, []);
 
     return { products };
